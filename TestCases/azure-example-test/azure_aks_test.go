@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-func TestTerraformAzureAKSExample(t *testing.T) {
+func TestAzureAKS(t *testing.T) {
 	t.Parallel()
 	// MC_+ResourceGroupName_ClusterName_AzureRegion must be no greater than 80 chars.
 	// https://docs.microsoft.com/en-us/azure/aks/troubleshooting#what-naming-restrictions-are-enforced-for-aks-resources-and-parameters
